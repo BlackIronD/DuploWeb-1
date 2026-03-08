@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duplo Construcción y Diseño</title>
+ <link rel="stylesheet" href="Style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <div class="logo">
+  <img src="img/logo duplo svg.svg" width="100" height="80" alt="Duplo" href="index.html">
+
+</div>
+
+  <nav>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#clientes">Clientes</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+<a href="#contacto" class="cta-button">Solicitar Presupuesto</a>
+</header>
+
+<!-- 🔹 Sección con la gran imagen de fondo -->
+<section class="hero"></section>
+
+<!-- 🔹 Nueva sección gris para mostrar contenido -->
+<section class="nosotros" id="nosotros">
+  <div class="nosotros-content">
+    <div class="text">
+      <h3>Nosotros</h3>
+      <h2>Arquitectura y construcción con identidad</h2>
+      <p>
+        Más de 6 años diseñando y ejecutando obras en Catamarca y Tucumán.
+        Integramos <b>diseño, dirección de obra y construcción</b> llave en mano
+        con una gestión clara y cercana.
+      </p>
+
+      <div class="buttons">
+        <a href="#equipo" class="btn">Conocer al equipo</a>
+        <a href="#servicios" class="btn">Nuestro método</a>
+        <a href="#contacto" class="btn yellow">Agendar una reunión</a>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <h4>50+</h4>
+          <p>Proyectos realizados</p>
+        </div>
+        <div class="stat">
+          <h4>6+ años</h4>
+          <p>De Trayectoria</p>
+        </div>
+        <div class="stat">
+          <h4>2</h4>
+          <p>Provincias foco</p>
+        </div>
+        <div class="stat">
+          <h4>100% </h4>
+          <p>Gestión integral</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 Marco de imágenes cambiantes -->
+    <div class="image-frame">
+  <img src="img/screenshot-2025-08-04.png" alt="Obra en construcción" class="active">
+  <img src="img/nosotros2.jpg" alt="Obra terminada">
+  <img src="img/nosotros3.jpg" alt="Interior de diseño">
+</div>
+
+  </div>
+</section>
+
+<!-- Sección Equipo (reemplazar la anterior) -->
+<section id="equipo" class="equipo-section">
+  <div class="equipo-inner">
+    <h2 class="equipo-title">Equipo</h2>
+    <p class="equipo-sub">Un equipo complementario para integrar diseño, obra y gestión.</p>
+
+    <!-- Cinta / carrusel -->
+    <div class="carousel-wrap">
+      <div id="equipoCarousel" class="carousel">
+        <!-- tarjeta ejemplo (imagen opcional) -->
+        <div class="card">
+          <img src="img/equipo1.jpg" alt="Iván Palacios" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="placeholder" style="display:none;">Próximamente</div>
+          <div class="card-info">
+            <div class="card-name">Iván Palacios</div>
+            <div class="card-role">Diseño arquitectónico</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/equipo2.jpg" alt="Alan Palacios" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="placeholder" style="display:none;">Próximamente</div>
+          <div class="card-info">
+            <div class="card-name">Alan Palacios</div>
+            <div class="card-role">MM en obra / Dirección</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/equipo3.jpg" alt="Jeremías Palacios" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="placeholder" style="display:none;">Próximamente</div>
+          <div class="card-info">
+            <div class="card-name">Jeremías Palacios</div>
+            <div class="card-role">Área Comercial</div>
+          </div>
+        </div>
+
+        <!-- tarjetas vacías para ver rotación -->
+        <div class="card">
+          <div class="placeholder" style="display:flex;">Próximamente</div>
+          <div class="card-info">
+            <div class="card-name">Nuevo miembro</div>
+            <div class="card-role">Rol futuro</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="placeholder" style="display:flex;">Próximamente</div>
+          <div class="card-info">
+            <div class="card-name">Nuevo miembro</div>
+            <div class="card-role">Rol futuro</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- cajas Misión / Visión / Valores -->
+    <div class="mv-container">
+      <div class="mv-card">
+        <h3 class="mv-title">Misión</h3>
+        <p class="mv-text">Crear espacios funcionales y estéticos que mejoren la calidad de vida de nuestros clientes, integrando diseño y obra con transparencia.</p>
+      </div>
+      <div class="mv-card">
+        <h3 class="mv-title">Visión</h3>
+        <p class="mv-text">Ser el estudio referente del Valle de Santa María y Tucumán por la excelencia en proyecto y la confiabilidad en la ejecución.</p>
+      </div>
+      <div class="mv-card">
+        <h3 class="mv-title">Valores</h3>
+        <p class="mv-text">Compromiso · Claridad · Innovación · Eficiencia · Respeto por el contexto local.</p>
+      </div>
+    </div>
+
+  </div>
+ <section class="nosotros-section">
+  <div class="nosotros-inner">
+    <!-- 🔹 Texto -->
+    <div class="nosotros-text">
+      <h3 class="nosotros-sub">Nosotros</h3>
+      <h2 class="nosotros-title">De la idea a la obra terminada</h2>
+      <p class="nosotros-desc">
+        Ofrecemos un flujo integral: diseño, documentación, dirección y construcción llave en mano,
+        con costos claros y seguimiento permanente.
+      </p>
+
+      <div class="nosotros-buttons">
+        <a href="#" class="btn-outline">Ver paquete recomendado</a>
+        <a href="#" class="btn-outline">Explorar todos</a>
+      </div>
+    </div>
+
+    <!-- 🔹 Marco de imágenes rotativas -->
+    <div class="nosotros-image-frame">
+      <img src="img/WhatsApp Image 2025-11-11 at 11.22.47 AM (1).jpeg" alt="Obra en progreso" class="active">
+      <img src="img/Diseño sin título (76).png" alt="Diseño terminado">
+      <img src="img/Diseño sin título (78).png" alt="Interior moderno">
+    </div>
+  </div>
+</section>
+</section>
+<section class="servicios-section" id="servicios">
+  <div class="servicios-inner">
+    <!-- Texto izquierda -->
+    <div class="servicios-texto">
+      <h3 class="servicios-sub">Servicios</h3>
+      <h2 class="servicios-title">Qué hacemos</h2>
+      <p class="servicios-desc">
+        Ofrecemos un flujo integral: diseño, documentación, dirección y construcción llave en mano,
+        con costos claros y seguimiento permanente.
+      </p>
+    </div>
+
+    <!-- Cuadro gris derecha -->
+    <div class="servicios-cuadro">
+      <ul>
+        <li>
+          <span class="icono">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="11" fill="#ffce32"/>
+              <path d="M7 12l3 3 7-7" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <strong>Diseño arquitectónico (Anteproyecto)</strong><br>
+            Relevamiento, concepto, croquis, layout, renders preliminares.
+          </div>
+        </li>
+
+        <li>
+          <span class="icono">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="11" fill="#ffce32"/>
+              <path d="M7 12l3 3 7-7" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <strong>Proyecto ejecutivo</strong><br>
+            Planos, detalles, cómputo y presupuesto, pliegos y especificaciones.
+          </div>
+        </li>
+
+        <li>
+          <span class="icono">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="11" fill="#ffce32"/>
+              <path d="M7 12l3 3 7-7" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <strong>Dirección y manejo de obra</strong><br>
+            Planificación, cronograma, control de calidad, certificaciones, reportes.
+          </div>
+        </li>
+
+        <li>
+          <span class="icono">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="11" fill="#ffce32"/>
+              <path d="M7 12l3 3 7-7" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <strong>Remodelaciones y ampliaciones</strong><br>
+            Vivienda y local comercial: rediseño, demoliciones, refuncionalizaciones.
+          </div>
+        </li>
+
+        <li>
+          <span class="icono">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="11" fill="#ffce32"/>
+              <path d="M7 12l3 3 7-7" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <strong>Relevamiento y asesoría</strong><br>
+            Medición, diagnóstico, estimación de inversión, plan de acción.
+          </div>
+        </li>
+
+        <li>
+          <span class="icono">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="11" fill="#ffce32"/>
+              <path d="M7 12l3 3 7-7" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <strong>Gestiones y aprobaciones</strong><br>
+            Trámites municipales, regularizaciones, permisos, documentación legal.
+          </div>
+        </li>
+
+        <li>
+          <span class="icono">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="11" fill="#ffce32"/>
+              <path d="M7 12l3 3 7-7" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <strong>Visualización 3D y renders</strong><br>
+            Imágenes, recorridos, selección de materiales, apoyo a decisión del cliente.
+          </div>
+        </li>
+
+        <li>
+          <span class="icono">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="11" fill="#ffce32"/>
+              <path d="M7 12l3 3 7-7" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <strong>Duplo Materiales</strong><br>
+            Venta e instalación de cortinas roller (actual) y aberturas de aluminio (futuro).
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+</section>
+  <section class="paquetes-section">
+  <div class="paquetes-inner">
+    <h2 class="paquetes-title">Paquetes recomendados</h2>
+    <p class="paquetes-sub">
+      Combinaciones pensadas para simplificar tu decisión y optimizar tiempos y costos.
+    </p>
+
+    <div class="paquetes-grid">
+      <!-- 🔹 Paquete 1 -->
+      <div class="paquete destacado">
+        <div class="etiqueta">Más elegido</div>
+        <h3>Proyecto + Dirección</h3>
+        <ul>
+          <li>Anteproyecto y proyecto ejecutivo</li>
+          <li>Plan de obra y cronograma</li>
+          <li>Reportes quincenales</li>
+        </ul>
+        <a href="#contacto" class="btn-outline">Solicitar propuesta</a>
+      </div>
+
+      <!-- 🔹 Paquete 2 -->
+      <div class="paquete">
+        <h3>Remodelación rápida</h3>
+        <ul>
+          <li>Relevamiento + anteproyecto</li>
+          <li>Render de propuesta</li>
+          <li>Presupuesto orientativo</li>
+        </ul>
+        <a href="#contacto" class="btn-outline">Solicitar propuesta</a>
+      </div>
+
+      <!-- 🔹 Paquete 3 -->
+      <div class="paquete">
+        <h3>Proyecto Ejecutivo completo</h3>
+        <ul>
+          <li>Anteproyecto y proyecto ejecutivo detallado.</li>
+          <li>Planos técnicos, cómputo y presupuesto.</li>
+          <li>Especificaciones de materiales y pliegos.</li>
+          <li>Asesoría para cotización con contratistas.</li>
+        </ul>
+        <a href="#contacto" class="btn-outline">Solicitar propuesta</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="proyectos-section" id="proyectos">
+  <div class="proyectos-header">
+    <h2 class="proyectos-title">Nuestros Proyectos</h2>
+    <div class="proyectos-controls">
+      <input type="text" id="busqueda" placeholder="Buscar proyecto" />
+      <button id="filtro-btn">
+        <i class="fa-solid fa-filter"></i> Filtro de búsqueda
+      </button>
+    </div>
+  </div>
+
+  <div class="proyectos-carousel" id="carousel">
+    <!-- Tarjeta de proyecto -->
+    <div class="proyecto-card" data-etiqueta="Santa Maria" data-nombre="Duplo DC">
+  <img src="img/proyecto1.jpg" alt="Proyecto Duplo DC" />
+  <!-- overlay en la parte inferior sobre la imagen -->
+  <div class="proyecto-overlay">
+    <div class="overlay-text">
+      <h3 class="proyecto-nombre">Nombre de Proyecto</h3>
+      <ul class="proyecto-list">
+        <li>Relevamiento + anteproyecto</li>
+        <li>Render de propuesta</li>
+        <li>Presupuesto orientativo</li>
+      </ul>
+    </div>
+
+    <div class="overlay-right">
+      <div class="ubicacion">Duplo DC<br><small>Santa María</small></div>
+      <img class="proyecto-logo" src="img/logo1.png" alt="Logo proyecto">
+    </div>
+  </div>
+</div>
+
+
+    <div class="proyecto-card" data-etiqueta="Santa Maria" data-nombre="Duplo DC">
+  <img src="img/04_1 - Photo.jpg" alt="Proyecto Duplo DC" />
+  <!-- overlay en la parte inferior sobre la imagen -->
+  <div class="proyecto-overlay">
+    <div class="overlay-text">
+      <h3 class="proyecto-nombre">Nombre de Proyecto</h3>
+      <ul class="proyecto-list">
+        <li>Relevamiento + anteproyecto</li>
+        <li>Render de propuesta</li>
+        <li>Presupuesto orientativo</li>
+      </ul>
+    </div>
+
+    <div class="overlay-right">
+      <div class="ubicacion">Duplo DC<br><small>Santa María</small></div>
+      <img class="proyecto-logo" src="img/logo1.png" alt="Logo proyecto">
+    </div>
+  </div>
+</div>
+
+
+    <!-- Agregá más proyectos acá -->
+  </div>
+</section>
+<section class="clientes-section" id="clientes">
+  <div class="clientes-header">
+    <p class="subtitulo-amarillo">Confianza</p>
+    <h2 class="titulo-principal">Nuestros clientes</h2>
+    <p class="descripcion">
+      Historias reales, resultados medibles y relaciones a largo plazo en Catamarca y Tucumán.
+    </p>
+  </div>
+
+  <!-- Estadísticas -->
+  <div class="clientes-stats">
+    <div class="stat">
+      <h3>50+</h3>
+      <p>proyectos realizados</p>
+    </div>
+    <div class="stat">
+      <h3>6+ años</h3>
+      <p>de trayectoria</p>
+    </div>
+    <div class="stat">
+      <h3>95%</h3>
+      <p>clientes nos recomiendan</p>
+    </div>
+    <div class="stat">
+      <h3>24hs</h3>
+      <p>respuesta promedio</p>
+    </div>
+  </div>
+
+  <!-- Cinta de testimonios -->
+  <div class="clientes-slider">
+    <button class="slider-btn prev">&#8592;</button>
+
+    <div class="slider-wrapper">
+      <div class="cliente-card">
+        <div class="cliente-info">
+          <img src="img/cliente1.jpg" alt="Pedro Sanchez">
+          <div>
+            <h4>Pedro Sanchez <span class="stars">★★★★★</span></h4>
+          </div>
+        </div>
+        <p class="cliente-cita">
+          “Nunca pensé que una construcción se podía hacer tan rápido. 
+          La comunicación y los reportes quincenales nos dieron tranquilidad en cada etapa.”
+        </p>
+        <div class="cliente-tipo">Residencial, Tucumán</div>
+      </div>
+
+      <div class="cliente-card">
+        <div class="cliente-info">
+          <img src="img/cliente2.jpg" alt="María López">
+          <div>
+            <h4>María López <span class="stars">★★★★★</span></h4>
+          </div>
+        </div>
+        <p class="cliente-cita">
+          “El anteproyecto y los renders nos ayudaron a decidir materiales y distribución. 
+          Cumplieron plazos.”
+        </p>
+        <div class="cliente-tipo">Comercial, Santa María</div>
+      </div>
+
+      <div class="cliente-card">
+        <div class="cliente-info">
+          <img src="img/cliente3.jpg" alt="Clínica Valle">
+          <div>
+            <h4>Clínica Valle <span class="stars">★★★★★</span></h4>
+          </div>
+        </div>
+        <p class="cliente-cita">
+          “Muy buen manejo de obra y coordinación con proveedores. 
+          Volveríamos a trabajar juntos.”
+        </p>
+        <div class="cliente-tipo">Institucional, Tucumán</div>
+      </div>
+    </div>
+
+    <button class="slider-btn next">&#8594;</button>
+  </div>
+</section>
+<section class="contacto-section" id="contacto">
+  <h3 class="contacto-sub">Servicios</h3>
+  <h2 class="contacto-title">Estamos para ayudarte</h2>
+
+  <div class="contacto-inner">
+    <!-- Formulario -->
+    <div class="contacto-form">
+      <h3>Solicitá tu presupuesto</h3>
+      <form>
+        <div class="input-group">
+          <input type="text" placeholder="Nombre y apellido">
+          <input type="email" placeholder="Email">
+        </div>
+
+        <div class="input-group">
+          <input type="tel" placeholder="Teléfono (opcional)">
+          <select>
+            <option>San Miguel de Tucumán</option>
+            <option>Santa María Catamarca</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <select>
+            <option>Residencial</option>
+            <option>Comercial</option>
+            <option>Institucional</option>
+          </select>
+          <select>
+            <option>Solo idea</option>
+            <option>Proyecto en curso</option>
+            <option>Obra en ejecución</option>
+          </select>
+        </div>
+
+        <textarea placeholder="Contanos brevemente tu necesidad, plazos y presupuesto estimado"></textarea>
+
+        <label class="file-label">Podés adjuntar planos, fotos o referencias abajo</label>
+        <input type="file" accept=".pdf,.jpg,.png">
+
+        <div class="checkbox">
+          <input type="checkbox" id="privacidad">
+          <label for="privacidad">Acepto la política de privacidad</label>
+        </div>
+
+        <div class="contacto-buttons">
+          <button type="submit" class="btn-yellow">Enviar consulta</button>
+          <button type="button" class="btn-outline">Escribir por WhatsApp</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Contacto directo -->
+    <div class="contacto-directo">
+      <h3>Contactanos directo</h3>
+
+      <div class="contacto-locs">
+        <div class="loc">
+          <h4>Santa María Catamarca</h4>
+          <p><b>Dirección:</b> Av. Perón 154</p>
+          <p><b>Tel:</b> +54 9 381 540-4080</p>
+        </div>
+
+        <div class="loc">
+          <h4>San Miguel de Tucumán</h4>
+          <p><b>Dirección:</b> Celedonio Gutiérrez 276</p>
+          <p><b>Tel:</b> +54 9 381 655-9607</p>
+        </div>
+      </div>
+
+      <div class="contacto-extra">
+        <div><b>Horarios:</b> Lunes a Viernes 9–13hs</div>
+        <div><b>Mail:</b> dupladcg@gmail.com</div>
+      </div>
+
+      <div class="contacto-maps">
+        <iframe src="https://www.google.com/maps?q=Av.+Perón+154,+Santa+María,+Catamarca,+Argentina&output=embed"></iframe>
+        <iframe src="https://www.google.com/maps?q=Celedonio+Gutiérrez+276,+San+Miguel+de+Tucumán,+Argentina&output=embed"></iframe>
+      </div>
+
+      <div class="contacto-redes">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script src="JS/Function.JS"></script>
+<script>
+const carousel = document.getElementById("equipoCarousel");
+let isDragging = false;
+let startX;
+let scrollLeft;
+
+// Arrastrar con mouse
+carousel.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  startX = e.pageX - carousel.offsetLeft;
+  scrollLeft = carousel.scrollLeft;
+});
+carousel.addEventListener("mouseleave", () => (isDragging = false));
+carousel.addEventListener("mouseup", () => (isDragging = false));
+carousel.addEventListener("mousemove", (e) => {
+  if (!isDragging) return;
+  e.preventDefault();
+  const x = e.pageX - carousel.offsetLeft;
+  const walk = (x - startX) * 1.5;
+  carousel.scrollLeft = scrollLeft - walk;
+});
+
+// Auto scroll (cada 3.5 seg)
+setInterval(() => {
+  carousel.scrollBy({ left: 270, behavior: "smooth" });
+  if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth) {
+    carousel.scrollTo({ left: 0, behavior: "smooth" });
+  }
+}, 3500);
+</script>
+<script>
+  const inputBusqueda = document.getElementById("busqueda");
+  const proyectos = document.querySelectorAll(".proyecto-card");
+
+  inputBusqueda.addEventListener("input", () => {
+    const filtro = inputBusqueda.value.toLowerCase();
+    proyectos.forEach((card) => {
+      const nombre = card.dataset.nombre.toLowerCase();
+      const etiqueta = card.dataset.etiqueta.toLowerCase();
+      card.style.display =
+        nombre.includes(filtro) || etiqueta.includes(filtro)
+          ? "block"
+          : "none";
+    });
+  });
+</script>
+
+<style>
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+</style>
+
+
+</body>
+</html>
